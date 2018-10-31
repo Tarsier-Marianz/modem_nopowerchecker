@@ -340,7 +340,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 3400 2850 3400
 Wire Wire Line
-	3150 3400 3400 3400
+	3150 3400 3650 3400
 Wire Wire Line
 	2750 3500 2750 3400
 Connection ~ 2750 3400
@@ -385,11 +385,14 @@ F 3 "" H 4400 3500 50  0000 C CNN
 	1    4400 3500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4200 3200 4200 3550
 Connection ~ 4200 3650
 Wire Wire Line
 	4200 3650 4200 3800
 Wire Wire Line
-	4200 3350 4200 3450
+	3650 3400 3650 3550
+Wire Wire Line
+	3650 3550 4200 3550
+Connection ~ 3400 3400
+Wire Wire Line
+	4200 3200 4200 3450
 $EndSCHEMATC
