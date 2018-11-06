@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name modem_nopowerchecker-rescue)(type Legacy)(uri ${KIPRJMOD}/modem_nopowerchecker-rescue.lib)(options "")(descr ""))
+)
